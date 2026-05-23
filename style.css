@@ -1,0 +1,108 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background: linear-gradient(to right, #d4fc79, #96e6a1);
+}
+nav{
+    margin-top: 10px;
+    top: 0;
+    position: sticky;
+    background: #1b5e20;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.nav-links{
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+.nav-links li{
+    display: inline;
+}
+.nav-links a{
+    text-decoration: none;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 20px;
+    border: 1px solid;
+    font-size: 14px;
+    transition: background 0.2s ease-in-out,border 0.2s ease-in-out;
+}
+.nav-links a:hover{
+    background-color: yellow;
+    border-color: #fff;
+}
+.card {
+    background: white;
+    margin: 30px auto;
+    padding: 25px;
+    width: 80%;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+}
+.img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+h1, h2, h3 {
+    color: #2e7d32;
+}
+footer {
+    background: #1b5e20;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.img {
+    width: 100%;
+    max-width: 450px;
+    display: block;
+    margin: 15px auto;
+    border-radius: 10px;
+}
+ 
+.pollutant {
+    background: #f1f8e9;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px 0;
+    border-left: 5px solid green;
+}
+ 
+.box {
+    background: #e8f5e9;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+.box {
+    background: #f1f8e9;
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+ 
+.box:hover {
+    transform: scale(1.03);
+    background: #dcedc8;
+}
+.container{
+    background: #e8f5e9;
+    margin: 30px auto;
+    padding: 25px;
+    width: 80%;
+    border-radius: 15px;
+    text-align: center;
+}
+.img1{
+    width: 150px;
+    border-radius: 10px;
+    align-items: center;
+}
