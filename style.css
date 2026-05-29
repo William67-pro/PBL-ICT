@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     font-family: 'Segoe UI', sans-serif;
     margin: 0;
@@ -93,7 +98,7 @@ footer {
     transform: scale(1.03);
     background: #dcedc8;
 }
-.container{
+.container1{
     background: #e8f5e9;
     margin: 30px auto;
     padding: 25px;
@@ -101,8 +106,117 @@ footer {
     border-radius: 15px;
     text-align: center;
 }
+.logo{
+    background: url(pollution.jpg) no-repeat center;
+    height: 300px;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+}
 .img1{
     width: 150px;
     border-radius: 10px;
     align-items: center;
+}
+.img2{
+    width: 150px;
+    border-radius: 10px;
+    align-items: center;
+    height: 200px;
+}
+.row{
+    width: 100%;
+}
+.col-12{
+    width: 100%;
+    background-color: aqua;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+.col-4{
+    width: 33.33%;
+    float: left;
+    padding: 10px;
+}
+img{
+    width: 100%;
+    height: 200px;
+}
+.col-8{
+    width: 66.66%;
+    padding: 10px;
+    float: left;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+ 
+.cad {
+    position: relative;
+    width: 200px;
+    border: 1px solid darkblue;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 50px;
+    text-align: center;
+    color: darkblue;
+    font-weight: bold;
+}
+ 
+.cad:hover {
+    transform: scale(1.2);
+    }
+ 
+.dis {
+    position: absolute;
+    top: -15px;
+    right: -25px;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: red;
+    color: white;
+}
+ 
+img {
+    width: 100%;
+    height: 150px;
+    /*border: 1px solid blueviolet;
+    border-radius: 10px;*/
+}
+p{
+    padding: 15px;
+}
+li{
+    padding: 10px;
+}
+.logo-circle {
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+  background: white;
+  display: grid;
+ 
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+  position: relative;
+  overflow: hidden;
+}
+ 
+.logo-circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
